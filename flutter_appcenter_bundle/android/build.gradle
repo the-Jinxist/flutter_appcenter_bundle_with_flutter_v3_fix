@@ -60,8 +60,8 @@ dependencies {
     appCenterImplementation "com.microsoft.appcenter:appcenter-distribute:${appCenterSdkVersion}"
     googlePlayImplementation "com.microsoft.appcenter:appcenter-distribute-play:${appCenterSdkVersion}"
 
-    if (System.env.FLUTTER_ROOT != null) {
-        println "FLUTTER_ROOT: $System.env.FLUTTER_ROOT"
-        debugCompileOnly files(System.env.FLUTTER_ROOT + "/bin/cache/artifacts/engine/android-x64/flutter.jar")
-    }
+//    if (System.env.FLUTTER_ROOT != null) {
+//        println "FLUTTER_ROOT: $System.env.FLUTTER_ROOT"
+//        debugCompileOnly files(System.env.FLUTTER_ROOT + "/bin/cache/artifacts/engine/android-x64-release/flutter.jar")
+//    }
 }
